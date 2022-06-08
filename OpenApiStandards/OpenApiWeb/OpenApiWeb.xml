@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenApiWeb</name>
+    </assembly>
+    <members>
+        <member name="M:OpenApiWeb.Controllers.WeatherForecastController.Get(System.String)">
+            <summary>
+            Gets forecast for all the cities
+            </summary>
+            <param name="city">City where you want the forecast for</param>
+            <returns>Weather for a given city</returns>
+            <response code="200">Returns the weather for the city</response>
+            <response code="404">If the city not matched</response>
+        </member>
+    </members>
+</doc>
